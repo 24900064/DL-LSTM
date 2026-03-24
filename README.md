@@ -32,7 +32,7 @@ Evaluate model accuracy, plot loss curves, and visualize predictions on a sample
 
 ## PROGRAM
 
-### Name: 212224230199
+### Name: Pragatheeshraaj D
 
 ### Register Number: 212224230199
 
