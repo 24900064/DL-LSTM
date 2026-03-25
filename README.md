@@ -218,8 +218,8 @@ output = model(sample)
 preds = torch.argmax(output, dim=-1).squeeze().cpu().numpy()
 true = y_test[i].numpy()
 
-print('Name:                 ')
-print('Register Number:     ')
+print('Name: Pragatheeshraaj D')
+print('Register Number: 212224230199')
 print("{:<15} {:<10} {}\n{}".format("Word", "True", "Pred", "-" * 40))
 for w_id, true_tag, pred_tag in zip(X_test[i], y_test[i], preds):
     if w_id.item() != word2idx["ENDPAD"]:
